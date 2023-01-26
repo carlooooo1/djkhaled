@@ -1,0 +1,25 @@
+#introduction p {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+#introduction img {
+    height: 150px;
+}
+
+@media (min-width: 768px) {
+    #introduction img {
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    #introduction p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    #introduction img {
+        height: 250px;
+    }
+}

@@ -1,0 +1,85 @@
+/* About Me Section Start */
+#aboutMe img {
+    height: 150px;
+}
+
+@media (min-width: 768px) {
+    #aboutMe h1.title, #aboutMe p.abt-me {
+        text-align: justify;
+    }
+
+    #aboutMe img {
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    #aboutMe {
+        height: 85vh;
+    }
+    #aboutMe img {
+        height: 250px;
+    }
+}
+/* About Me Section End */
+
+/* My Skills Section Start */
+#mySkills .card {
+    overflow: hidden;
+}
+
+#mySkills .card, #mySkills .card * {
+    background-color: #252526;
+}
+
+#mySkills .card .card_img--container {
+    height: 150px;
+}
+
+#mySkills .card .card_img--container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#mySkills .card .card-body {
+    padding: 0;
+}
+
+#mySkills .card h1.card-title {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+#mySkills .card ul {
+    font-size: 1rem;
+    padding: 0 1.25rem;
+}
+
+#mySkills .card ul li {
+    padding: 0.5rem 0;
+    border-color: #3c3c3c;
+}
+
+#mySkills .card ul li::before {
+    content: '•';
+    padding: 0 5px;
+}
+
+@media (min-width: 768px) {
+    #mySkills .card .card_img--container {
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    #mySkills .card {
+        width: 300px;
+    }
+
+    #mySkills .card .card_img--container {
+        height: 150px;
+    }
+}
+/* My Skills Section End */
